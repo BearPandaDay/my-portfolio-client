@@ -1,6 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import { Home } from '../pages/Home'
+import { Test } from '../pages'
 
 const Err404 = ()=><>
   <button onClick={_=> window.history.back() }>to Back</button>
@@ -11,9 +12,10 @@ export function Webrouter() {
   return (
     <>
       <Routes>
-        {['/', '/home'].map( (path) => (
-          <Route path={path} element={<Home />} />) 
+        {['/', '/home'].map( (path, index) => (
+          <Route key={index} path={path} element={<Home />} />) 
         )} 
+        <Route path='/test' Component={Test} />
         <Route path='*' element={<Err404 />} />
       </Routes>
     </>

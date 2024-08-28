@@ -2,6 +2,7 @@ import React from 'react'
 import { Floatbutton, FloatButtonBackTop, FooterComponent, Introduction, NudoFirst, NudoSecond } from "../Components";
 import { Contact } from '../Components/Contact/Contact';
 
+import './Home.css';
 
 export function Home() {
   return (

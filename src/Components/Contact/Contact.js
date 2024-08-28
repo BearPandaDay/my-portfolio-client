@@ -37,6 +37,7 @@ export function Contact() {
     marginTop: 50,
     background: "#FFFFFF",
     width: "100%",
+    aspectRatio: "1 / 1",
     borderRadius: "100%",
     borderWidth: "4px",
     borderStyle: "solid",
