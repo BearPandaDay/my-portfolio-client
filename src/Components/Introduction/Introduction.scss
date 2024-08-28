@@ -1,0 +1,76 @@
+
+.ant-space1 {
+    width: 100%;
+    background: green;
+    
+    .ant-layout-sider-children1 {
+        text-align: center;
+        line-height: 65px;
+        color: #D5DBE8;
+        opacity: 1;
+        
+        h2 {
+            h4 {
+                background-color: #000012;
+                border-radius: 20px;
+                width: 170px;
+                font-family: Arial; 
+                text-align: center;
+                padding: 0; 
+                box-shadow: 8px 8px 8px 5px rgba(0, 0, 0, 0.2);
+                margin: 0 auto;
+                font-weight: bold;
+            }
+        }
+
+        .asterisk-decoration {
+            text-align: left;
+            margin-left: 3vw;
+            letter-spacing: 2.6vw;
+            font-size: 2vw;
+            -webkit-text-stroke: 5px white;
+            text-shadow: 0px 0px 50px rgba(255,0,0,1);
+            opacity: 0.3;
+        }
+    }
+}
+
+.ant-image-img-perfile-home {
+    box-shadow: 8px 6px 42px 8px rgb(90, 90, 90);
+    margin: 10% auto;
+    border-radius: 16rem 30px 8rem 30px;
+    // background: rgba(255, 255, 255, 100);
+    background-color: #e7e7e72f;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    object-fit: cover;
+}
+
+.ant-layout-content {
+    background: rgb(231, 246, 249);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+}
+
+.header-top-bar {
+    position: sticky; // PERMANECER QUIETO EN LA PAGINA
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 50;
+    border-bottom-right-radius: 10px;
+
+    .container-img-portfolio {
+        float: left;
+        margin: 0 auto;
+        height: 100%;
+        min-height: 20px;
+        text-align: center;
+    }
+}
+
+.classcontentantd {
+    background-image: url('../../assets/png/background-introduction.png');
+}

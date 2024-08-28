@@ -1,0 +1,30 @@
+.content-nudosecond {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    color: white;
+    background-image: url('../../assets/png/backgroundnodosecond.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+    .content-left {
+        display: flex;
+        width: 50%;
+        margin: 0 auto;
+        // background: #020116c0;
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
+        background: linear-gradient(to bottom right, #080612cc, #625e9466, #080612cc);
+    }
+
+    .content-right {
+        display: flex;
+        width: 50%;
+        margin: 0 auto;
+        // background: #020116c0;
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        // background: linear-gradient(to bottom right, #080612cc, #625e9466, #080612cc);
+    }
+}
