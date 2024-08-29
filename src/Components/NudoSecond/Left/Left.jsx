@@ -2,33 +2,13 @@ import React from "react";
 import { Image, Space } from "antd";
 import { Knowledge, ListKnowledge } from "./Knowledge";
 
+import './Left.scss'
+
 export function Left() {
   return (
-    <div
-      style={{
-        borderRadius: 20,
-        margin: "2vw auto",
-        // background: "blue",
-        // width: "65%",
-        maxWidth: "80%",
-        // overflowY: 'scroll',
-        // height: "60px",
-      }}
-    >
-      <h1
-        style={{
-          fontSize: "2.2vw",
-        }}
-      >
-        Professional Skills Works
-        Knowledge
-      </h1>
-      <div
-        style={{
-          display: "flex",
-          flexWrap: "wrap",
-        }}
-      >
+    <div className="content-left-knowledge">
+      <h1>Professional Skills Works Knowledge</h1>
+      <div className="content-image-knowledge">
         <Image.PreviewGroup
           preview={{
             onChange: (current, prev) =>

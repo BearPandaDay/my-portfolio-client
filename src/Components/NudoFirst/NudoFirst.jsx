@@ -22,15 +22,7 @@ export function NudoFirst() {
         </div>
       </div>
       {/* RIGHT */}
-      <div
-        style={{
-          wordWrap: "break-word",
-          width: "50%",
-          borderLeft: '1px dashed gray',
-          display: "flex",   // UNIDO PARA CENTRAR EN EL MEDIO PADRE
-          justifyContent: "center",   // UNIDO PARA CENTRAR EN EL MEDIO PADRE
-        }}
-        >
+      <div className="content-right">
         <div className="box box-light content-boxwhoami">
           <div className="content-header-whoami">
             <div className="textheader">

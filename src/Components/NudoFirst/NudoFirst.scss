@@ -35,6 +35,14 @@
       }
     }
   }
+
+  .content-right {
+    word-wrap: break-word;
+    width: 50%;
+    border-left: 1px dashed gray;
+    display: flex;  // UNIDO PARA CENTRAR EN EL MEDIO PADRE
+    justify-content: center;   // UNIDO PARA CENTRAR EN EL MEDIO PADRE
+  }
 }
 
 .box {
