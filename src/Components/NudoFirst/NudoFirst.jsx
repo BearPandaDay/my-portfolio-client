@@ -51,11 +51,7 @@ export function NudoFirst() {
             ></div>
           </div>
 
-          <div className="content-body"
-            // style={{
-            //   textAlign: "justify",
-            // }}
-          >
+          <div className="content-body">
             <p> 
               Soy un profesional con destacadas habilidades de comunicación y trabajo en equipo,
               con capacidad en resolver problemas y adaptarse a entornos dinámicos.
