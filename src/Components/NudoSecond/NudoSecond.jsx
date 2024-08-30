@@ -10,9 +10,9 @@ export function NudoSecond() {
           <Left />
         </div>
 
-        <div className="content-right">
+        {/* <div className="content-right">
           <Right />
-        </div>
+        </div> */}
       </div>
     // </div>
   );

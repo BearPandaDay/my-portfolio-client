@@ -41,7 +41,11 @@ code {
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
 }
-
+:where(.css-1gwfwyx).ant-image-preview-root .ant-image-preview-wrap {
+  background-color: rgba(255, 255, 255, 0.289);
+  -webkit-backdrop-filter: blur(30px) !important;
+  backdrop-filter:  blur(30px) !important;
+}
 :where(.css-dev-only-do-not-override-1gwfwyx).ant-image-preview-root .ant-image-preview-wrap {
   background-color: rgba(255, 255, 255, 0.289);
   -webkit-backdrop-filter: blur(30px) !important;
