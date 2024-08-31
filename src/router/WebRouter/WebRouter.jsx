@@ -15,10 +15,9 @@ export function WebRouter() {
       <Routes>
         {['/', '/home'].map( (path, index) => (
           <Route key={index} path={path} element={<Home />} />) 
-        )} 
-        <Route path='/' element={() => <h1>Hola Mundo</h1>}/>
+        )}
           {/* <Route path='/test' Component={Test} /> */}
-        <Route path='*' Component={<Test />} />
+        <Route path='*' Component={Test} />
       </Routes>
     </>
   )

@@ -1,4 +1,11 @@
-import { Floatbutton, FloatButtonBackTop, FooterComponent, Introduction, NudoFirst, NudoSecond } from "../../Components";
+import { 
+  Floatbutton, 
+  FloatButtonBackTop, 
+  FooterComponent, 
+  Introduction, 
+  NudoFirst, 
+  NudoSecond, 
+  SectionExperience } from "../../Components";
 import { Contact } from '../../Components/Contact/Contact';
 
 import './Home.scss';
@@ -11,7 +18,8 @@ export function Home() {
         <Floatbutton />
         <Introduction /> 
         <NudoFirst />
-        <NudoSecond /> 
+        <NudoSecond />
+        <SectionExperience />
         <Contact />
         <FooterComponent /> 
       </div>

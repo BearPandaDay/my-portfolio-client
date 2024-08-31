@@ -6,8 +6,7 @@ import './Right.scss';
 const Right = () => {
   return (
     <div className='box-experience box box-dark'>
-      <h1>My Experience</h1>
-      <br />
+      {/* <h1>My Experience</h1> */}
       <Timeline
         mode={'left'}
         items={items}

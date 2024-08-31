@@ -1,11 +1,22 @@
+.ant-timeline-item-label {
+    text-align: right !important;
+    // width: 20% !important;
+    // background-color: red;
+    right: 52%;
+    
+    p {
+        text-align: right !important;
+        // background-color: blue;
+    }
+}
 .content-right-experience {
     margin: 20% auto !important;
     width: 80% !important;
 
     .box-experience {
         padding: 20px;
-        border-radius: 20px;
         // background: #020116c0;
+        border-radius: 20px;
         -webkit-backdrop-filter: blur(20px);
         backdrop-filter: blur(20px);
         
@@ -13,15 +24,16 @@
 }
 .box-experience h1 {
     font-size: 2.2vw;
-    text-shadow: 0px 0px 80px #000000;
+    // text-shadow: 0px 0px 80px #000000;
 }
 
 .box-experience {
-    padding: 20px;
+    padding: 3rem;
+    max-width: 1000px;
 
     h1 {
-        color: white;
-        font-size: 2.2rem;
+        // color: white;
+        // font-size: 2.2rem;
     }
 
     .ant-timeline {
