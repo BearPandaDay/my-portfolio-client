@@ -27,6 +27,7 @@ import puntonetpng from './puntonet.png';
 import imgreact from './react.png';
 import pythonpng from './python.png';
 import coffeeheight from './coffee-height.png';
+import purplebackgroundpng from './purplebackground.png';
 const image = {
 angularpng,
 antdesingpng,
@@ -56,5 +57,6 @@ puntonet2png,
 pythonpng,
 imgreact,
 coffeeheight,
+purplebackgroundpng,
 sasspng};
 export {image};

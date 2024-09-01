@@ -1,9 +1,14 @@
 .content-section-experience {
+  padding: 3rem 3rem 8rem 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: rgb(235, 235, 235);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   // font-weight: bold;
 
   h1 {
@@ -14,5 +19,6 @@
     line-height: 1.3rem;
     text-align: justify;
     font-size: 1.1rem;
+    padding-right: 30px;
   }
 }
